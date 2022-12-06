@@ -1446,6 +1446,17 @@ config TOUCHSCREEN_HIMAX_CHIPSET
 
           If unsure, say N.
 
+
+config TOUCHSCREEN_HYNITRON
+	tristate "Hynitron touchpanel CHIPSET"
+	depends on I2C
+	help
+	  Say Y here if you have a Hynitron touchpanel,
+	  like the one on the Huawei Mate 10 Lite replacement screens.
+	  Written/hacked by comma, so no guarantees!
+
+	  If unsure, say N.
+
 source "drivers/input/touchscreen/hxchipset/Kconfig"
 
 config TOUCHSCREEN_EKTF3XXX_CHIPSET

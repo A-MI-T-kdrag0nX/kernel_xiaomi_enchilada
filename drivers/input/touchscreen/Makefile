@@ -113,5 +113,10 @@ obj-$(CONFIG_TOUCHSCREEN_FTS)		+= focaltech_touch/
 obj-$(CONFIG_TOUCHSCREEN_FT5X46)	+= ft5x46/
 obj-$(CONFIG_TOUCHSCREEN_GT9XX_v28)		+= gt9xx_v2.8/
 obj-$(CONFIG_TOUCHSCREEN_HIMAX_CHIPSET)	+= hxchipset/
+<<<<<<< HEAD
 obj-$(CONFIG_TOUCHSCREEN_EKTF3XXX_CHIPSET) += ektf3xxx/
 obj-$(CONFIG_TOUCHSCREEN_RAYDIUM_CHIPSET)  += raydium_wt030/
+=======
+obj-$(CONFIG_TOUCHSCREEN_SAMSUNG)	+= samsung_touch.o
+obj-$(CONFIG_TOUCHSCREEN_HYNITRON)	+= hynitron_touch.o
+>>>>>>> 0a8d5702d3ff (Hynitron touch driver (#52))
